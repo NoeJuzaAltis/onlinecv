@@ -5,6 +5,7 @@ import Home from './Home'
 import { Route, Switch, Redirect, Link, BrowserRouter } from 'react-router-dom';
 import Intro from './Intro';
 import Par from './Par';
+import Langs from './Langs';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path="/home" component={Home} />
         <Route path="/skills" component={Skills} />
         <Route path="/intro" component={Intro} />
-        <Route path="/par" component={Par} />      
+        <Route path="/langs" component={Langs} />      
     </div>
   );
 }
