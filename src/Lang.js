@@ -11,6 +11,6 @@ export default class Lang extends react.Component{
         this.src = './svgs/'+ this.name
     }
     render(){
-        return <div className="langEl"><img src={this.loadImage(this.name + ".svg")} alt={this.name}></img></div>
+        return <div className="langEl"><img src={this.loadImage(this.name + ".svg")} alt={this.name}/></div>
     }
 }

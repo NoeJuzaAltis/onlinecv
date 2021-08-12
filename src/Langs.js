@@ -1,3 +1,4 @@
+import './Langs.css'
 import { Route, Switch, Redirect, Link, BrowserRouter } from 'react-router-dom';
 import LangList from './LangList'
 function Langs() {
@@ -9,7 +10,7 @@ function Langs() {
                 <div className="contLangs">
                     <LangList />
                 </div>
-                <Link to="./">
+                <Link to="./aboutme">
                 <svg className="btn" width="550" height="171" viewBox="0 0 550 171" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="550" height="171" fill="#666666"/>
                     <rect x="13" y="10" width="526" height="148" fill="#8F8F8F"/>
