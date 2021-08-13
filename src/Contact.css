@@ -1,4 +1,4 @@
-.about{
+.contact{
     animation-duration: 2s;
     animation-name: appear;
 }
@@ -10,22 +10,25 @@
         opacity: 1;
     }
 }
-.contHob{
+.contLink{
     margin: 2%;
     display: flex;
     flex-flow:row wrap;
     justify-content: center;
     align-items: center;
 }
-.hobbEl{
-    flex: 1 1 25%;
+.lnkEl{
+    flex: 2 1 ;
     margin: 5px;
-    margin-top: 30px;
 }
-.hobbEl img{
-    max-width: 180px;
+.lnkEl img{
+    width: 30vmin;
     cursor: pointer;
+    min-width: 180px;
+    max-width: 200px;
 }
-h2{
-    margin-bottom: 0px;
+.mail{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
 }

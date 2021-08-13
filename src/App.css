@@ -48,3 +48,25 @@ body{
 		transform: translatey(0px);
 	}
 }
+.btn{
+  position: relative;
+  bottom: 0px;
+  margin: auto;
+  max-width: 100%;
+}
+.btn:active path{
+  fill: #949494;
+}
+.btn:active rect:nth-child(1){
+  fill: #3f3f3f;
+}
+.btn:active rect:nth-child(2){
+  fill: #383838;
+}
+.tip{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgba(255, 255, 255, 0.548);
+  font-size: 12px;
+}

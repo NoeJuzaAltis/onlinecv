@@ -10,7 +10,7 @@ function AboutMe() {
             <div className="contHob">
                 <HobbyList />
             </div>
-            <Link to="./experieces">
+            <Link to="./experiences">
                 <svg class="btn"width="550" height="171" viewBox="0 0 550 171" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="550" height="171" fill="#666666"/>
                 <rect x="13" y="10" width="526" height="148" fill="#8F8F8F"/>

@@ -23,4 +23,5 @@
 }
 .langEl img{
     width: 30vmin;
+    cursor: pointer;
 }

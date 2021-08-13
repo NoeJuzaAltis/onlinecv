@@ -60,26 +60,8 @@ canvas {
 .compEl{
     flex: 1 1 16%; 
     margin: 5px;
-    height: 180px;
-}
-.btn{
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    margin: auto;
-}
-.btn:active path{
-    fill: #949494;
-}
-.btn:active rect:nth-child(1){
-    fill: #3f3f3f;
-}
-.btn:active rect:nth-child(2){
-    fill: #383838;
+    max-height: 180px;
 }
 .skills{
-    height: 100%;
-}
-.App div{
     height: 100%;
 }

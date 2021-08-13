@@ -1,4 +1,4 @@
-.about{
+.experiences{
     animation-duration: 2s;
     animation-name: appear;
 }
@@ -10,22 +10,19 @@
         opacity: 1;
     }
 }
-.contHob{
+.contExp{
     margin: 2%;
     display: flex;
     flex-flow:row wrap;
     justify-content: center;
     align-items: center;
 }
-.hobbEl{
-    flex: 1 1 25%;
+.expEl{
+    flex: 1 1;
     margin: 5px;
-    margin-top: 30px;
 }
-.hobbEl img{
-    max-width: 180px;
+.expEl img{
+    width: 30vmin;
     cursor: pointer;
-}
-h2{
-    margin-bottom: 0px;
+    min-width: 180px;
 }
