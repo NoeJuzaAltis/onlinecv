@@ -1,7 +1,7 @@
 import './Skills.css';
 import Par from "./Par";
 import SkillList from './SkillList'
-import { Route, Switch, Redirect, Link, BrowserRouter } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function Skills() {
   return (

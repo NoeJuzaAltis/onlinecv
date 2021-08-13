@@ -1,5 +1,5 @@
 import './Langs.css'
-import { Route, Switch, Redirect, Link, BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import LangList from './LangList'
 function Langs() {
     return (

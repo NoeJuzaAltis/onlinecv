@@ -1,7 +1,5 @@
 import './App.css';
-import { Route, Switch, Redirect, Link, BrowserRouter } from 'react-router-dom';
-import fleche from './fleche.svg'
-
+import { Link } from 'react-router-dom';
 function Intro() {
     return (
         <div className="intro">
